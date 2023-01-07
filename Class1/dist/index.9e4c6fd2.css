@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+.assign {
+  background: #73f573;
+  justify-content: space-around;
+  padding: 8px;
+  display: flex;
+}
+
+.icon {
+  width: 48px;
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,15 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+}
+.assign {
+    display: flex;
+    justify-content: space-around;
+    background: #73f573;
+    padding:8px;
+}
+
+.icon {
+    width:48px
+}

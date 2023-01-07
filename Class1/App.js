@@ -1,10 +1,17 @@
-const heading1 = React.createElement('h1', {id: "h1", className : "h11"}, "Heading 1");
-const heading2 = React.createElement('h2', {id: "h2", className : "h21"}, "Heading 2");
+import React from "react";
+import ReactDOM from "react-dom/client"
 
-const container = React.createElement('div', {id: "container", className : "d11"}, [heading1, heading2]);
+const Title = () => (<h1>This is title</h1>)
 
-console.log(heading1, heading2, container)
+const HeaderComponent = () => {
+    return (
+        <div>
+            <Title />
+            <h2>this is h2 tag</h2>
+        </div>
+    )
+}
 
-const root = ReactDOM.createRoot(document.querySelector('.root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(container);
+root.render(<HeaderComponent />)

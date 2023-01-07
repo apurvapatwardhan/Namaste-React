@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["index.630c7254.css","index.css"],"sourcesContent":[".assign {\n  grid-template-columns: repeat(3, 1fr);\n  display: grid;\n}\n\n/*# sourceMappingURL=index.630c7254.css.map */\n",".assign {\r\n    display: grid;\r\n    grid-template-columns: repeat(3, 1fr);\r\n}"],"names":[],"version":3,"file":"index.630c7254.css.map"}
