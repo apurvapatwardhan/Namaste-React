@@ -1,7 +1,11 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
     padding: 0px;
     margin: 0px;
-    font-size: 10px;
+    font-size: 20px;
 }
 .header {
     background: #a1ffa3;
@@ -48,3 +52,25 @@ body {
 .rest-card img {
     width: 20rem;
 }
+
+.shimmer-card {
+    width: 20rem;
+    background-color: #789;
+    height: 20rem;
+    margin: 10px;
+}
+
+.search {
+    
+    display: flex;
+    justify-content: center;
+    background-color: #A1FFA3;
+    padding: 8px;
+
+}
+
+.search input {
+    width: 33%;
+    padding: 4px;
+    margin: 4px;
+} */

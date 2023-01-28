@@ -1,4 +1,5 @@
 export const logo = 'https://tse2.mm.bing.net/th?id=OIP.vbi5tR5hqVf5OWw_S42tlgHaHa&pid=Api&P=0';
+export const FETCH_MENU_URL = `https://www.swiggy.com/dapi/menu/v4/full?menuId=`
 export const restaurants = [
     {
         "type": "restaurant",
